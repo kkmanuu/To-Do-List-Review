@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.to-do-container {
+  width: 45%;
+  margin: 10% 27.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-and-refresh {
+  display: flex;
+  margin-left: 40px;
+}
+
+.input_and_add {
+  display: flex;
+  width: 90%;
+}
+
+form {
+  display: block;
+  width: 100%;
+}
+
+.input-task {
+  width: 75%;
+  padding: 10px;
+  margin: 20px 0;
+  margin-left: 40px;
+}
+
+.input-task:focus {
+  outline: none;
+}
+
+.add {
+  width: 10%;
+  height: 35px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.add:active {
+  background-color: rgb(155, 249, 13);
+  border-color: rgb(155, 249, 13);
+  font-weight: bold;
+}
+
+.clearButton {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(207, 207, 207);
+  color: gray;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+.clearButton:active {
+  opacity: 0.8;
+}
+
+.each-task {
+  list-style-type: none;
+  border: none;
+  display: flex;
+  padding-right: 30px;
+}
+
+.task-to-be-done {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 0;
+}
+
+.bin {
+  src: url('./images/dots.png');
+  height: 22px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-to-be-done:focus {
+  outline: none;
+}
